@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PerfectDOSVGA437';
+    src: url('/fonts/PerfectDOSVGA437.ttf') format('ttf'),
+        url('/fonts/PerfectDOSVGA437.svg') format('svg'),
+        url('/fonts/PerfectDOSVGA437.eot') format('eot'),
+         url('/fonts/PerfectDOSVGA437.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: "PerfectDOSVGA437", monospace;
+  font-size: 16px;
+  color: white;
+  background-color: #333333;
+    -webkit-font-smoothing: none;
+}
+header {
+    position: relative;
+    height: 3em;
+    }
+#caption {
+      display: inline-block;
+      padding: 1px 4px;
+      position: absolute;
+      top: 2em;
+      right: 2em;
+      background: black;
+      text-transform: uppercase;
+    }
+#link {
+            text-decoration: none;
+            color: white;
+      }
+.norton {
+  padding: 0;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+    margin: 20px;
+}
+.win {
+    position: relative;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 20px 20px 0 0 rgba(0, 0, 0, 0.8);
+    color: #2efffe;
+    background-color: #180099;
+    }
+legend {
+    padding: 0 10px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset {
+    border: #2efffe;
+    border-style: double;
+}
+strong {
+      font-weight: normal;
+      color: #fcff55;
+    }
+a {
+  color: #fcff2f;
+}
+.content-center {
+  text-align: center;
+}
+iframe {
+  width: 100%;
+  height: 20em;
+  background-color: white;
+}
